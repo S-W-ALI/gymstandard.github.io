@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+        GymGuide
+
+    </title>
+
+    <!--favicon-->
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5YLwRnUGznlDkadcU0jF4JnFubcauaY76yzXfVm6nV5542CboRDDj0izwfnzvjCFkmGI&usqp=CAU">
+
+    <style type="text/css">
+        .logo {
+            width: 25%;
+            text-align: right;
+            font-weight: bolder;
+            color: rgb(248, 6, 6);
+            float: right;
+            margin-top: 1%;
+            margin-right: 3%;
+            font-size: 50px;
+        }
+
+
+        .h1 {
+            width: 15%;
+            float: right;
+            text-align: right;
+            margin-top: 3%;
+
+        }
+
+        .h2 {
+            width: 15%;
+            float: right;
+            text-align: right;
+            margin-top: 3%;
+
+        }
+
+        .h3 {
+            width: 15%;
+            float: right;
+            text-align: right;
+            margin-top: 3%;
+
+        }
+
+        .h4 {
+            width: 15%;
+            float: right;
+            text-align: right;
+            margin-top: 3%;
+
+        }
+
+        .topnav {
+            background-color: #000000;
+            overflow: hidden;
+        }
+
+        .topnav a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: white;
+            color: black;
+            transition: 0.5s;
+        }
+
+        .topnav a.h3 {
+            background-color: red;
+            color: white;
+        }
+
+
+        /* command forward sla */
+        
+
+        h1 {
+            color: rgba(255, 255, 255, 0.487);
+            text-align: center;
+            padding-top: 10%;
+        }
+
+        body {
+            max-width: 1440px;
+            margin: 0;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        header img {
+            width: auto;
+            height: 600px;
+            object-fit: cover;
+            image-resolution: 2dppx;
+            max-width: 100%;
+        }
+
+        .f1 {
+            background-color: gray;
+            float: right;
+            width: 60%;
+            height: 200px;
+        }
+
+        .f2 {
+            background-color: gray;
+            float: left;
+            width: 40%;
+            height: 200px;
+            margin-top: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <p class="logo"> S.W.ALI </p>
+        <div class="topnav">
+            <a class="h1" href="http://127.0.0.1:3000/gym%20homepage#home">HOME</a>
+            <a class="h2" href="#news">ABOUT</a>
+            <a class="h3" href="http://127.0.0.1:3000/webdev">GYMGUIDE</a>
+            <a class="h4" href="#about">CONTACT US</a>
+        </div>
+
+    </header>
+
+
+
+    <div>
+        <h1> <u><i>THE ONLY GYM GUIDE YOU WILL EVER NEED!</i></u> <br>
+                    COMING SOON...</h1>
+
+        <P><b> Tired of going through multitude of websites to find the perfect gym guide? Well, you need not look any
+                further.</b></P>
+
+        I have handpicked only the essential information you need to know in order to save your time which I know you'd
+        rather spend in the gym .</p>
+
+
+        <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGd5bXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+            alt="S.W.ALI">
+
+    </div>
+</body>
+
+<footer>
+
+    <div class="f1">
+        <p> All the information provided is supported by :<br></p>
+
+        <ul type="circle">
+
+            <li>Documentaries + Commentaries of the most successful bodybuilders of all time.</li>
+            <li>articles.</li>
+            <li>personal experiences.</li>
+            <li>The actual biological reasons.</li>
+        </ul>
+    </div>
+
+    <p class="f2"> left side coming </p>
+
+
+</footer>
+
+</html>
